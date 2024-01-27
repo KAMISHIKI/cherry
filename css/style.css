@@ -1,0 +1,77 @@
+body {
+    font-family: "Avenir Next", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "Hiragino Sans", Meiryo, メイリオ, Osaka, "MS PGothic", arial, helvetica, sans-serif
+}
+
+#text3 {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding-bottom: 8px;
+    box-sizing: border-box;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    line-height: 1.6;
+    word-break: auto-phrase;
+}
+
+#editor-container {
+    height: 375px;
+    font-size: 1rem;
+    letter-spacing: .1rem;
+    line-height: 1.6;
+    word-break: auto-phrase;
+
+    width: 100%;
+    /* writing-mode: vertical-rl;
+    -webkit-writing-mode: vertical-rl;
+    -ms-writing-mode: vertical-rl; */
+}
+
+#editor-container p {
+    margin: 3px 0 3px;
+}
+
+.ql-editor ul[data-checked=true]>li::before {
+    font: normal normal normal 16px/1 "Font Awesome 5 Free" !important;
+    content: '\f058' !important;
+    color: #5e72e4 !important;
+}
+
+.ql-editor ul[data-checked=false]>li::before {
+    font: normal normal normal 16px/1 "Font Awesome 5 Free" !important;
+    content: '\f111' !important;
+    color: #5e72e4 !important;
+}
+
+.ql-editor ul[data-checked=true]>li {
+    text-decoration: line-through !important;
+}
+
+.ql-toolbar.ql-snow {
+    text-align: center;
+    height: 50px;
+}
+
+.ql-toolbar.ql-snow span button {
+    height: 24px;
+    max-width: 56px;
+}
+
+.ql-toolbar.ql-snow span button svg {
+    max-height: 24px;
+}
+
+.editor-wrapper {
+    position: relative;
+}
+
+.counter {
+    font-size: 11px;
+    position: absolute;
+    top: 56px;
+    right: 10px;
+    background-color: gainsboro;
+    padding: 2px 4px;
+    border-radius: 5px;
+    color: darkgray;
+}
