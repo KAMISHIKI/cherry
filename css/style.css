@@ -50,6 +50,9 @@ body {
 .ql-toolbar.ql-snow {
     text-align: center;
     height: 50px;
+    position: sticky;
+    top: 0;
+    background: white;
 }
 
 .ql-toolbar.ql-snow span button {
